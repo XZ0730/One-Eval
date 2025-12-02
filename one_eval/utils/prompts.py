@@ -79,3 +79,26 @@ prompt_registry.register(
 }}
 """
 )
+
+prompt_registry.register(
+    "bench_search.system",
+    """
+你是 One-Eval 的 BenchSearchAgent。
+你的任务是根据用户需求与本地候选 benchmarks 判断是否需要执行 HF 搜索，并指导工具调用。
+最终目标：找到与任务强相关的 benchmark 列表。
+"""
+)
+
+prompt_registry.register(
+    "bench_search.task",
+    """
+用户需求：
+{user_query}
+
+本地匹配到的 benchmarks：
+{local_candidates}
+
+若上述数量不足，请调用 hf_search_tool 以：query="用户需求关键词" 搜索更多候选项。
+注意：必须让你的输出符合 function-call 规范。
+"""
+)
