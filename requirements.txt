@@ -1,5 +1,29 @@
-bs4
-playwright
-openpyxl
-langgraph
-langgraph-checkpoint-sqlite
+# One-Eval Requirements
+
+# --- Core AI & Agent Framework ---
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-openai>=0.0.5
+langgraph>=0.0.10
+pydantic>=2.0.0
+
+# --- Data Processing & HuggingFace ---
+huggingface_hub>=0.20.0
+datasets>=2.16.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# --- LLM Client & Serving ---
+openai>=1.0.0
+# vllm is required for local model serving. 
+# It is recommended to install it with specific CUDA version if needed.
+vllm>=0.3.0
+
+# --- Utilities ---
+tqdm
+aiohttp
+
+# --- Project Dependencies ---
+# These libraries are assumed to be installed from local sources or private PyPI
+# open-dataflow>=0.1.0
+# dataflow-agent>=0.1.0
