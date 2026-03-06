@@ -13,7 +13,7 @@ from multiprocessing import cpu_count
 log = get_logger("MetricRunner")
 
 # Metrics that are corpus-level and should not be chunked
-NON_PARALLEL_METRICS = {"bleu", "chrf"}
+NON_PARALLEL_METRICS = {"bleu", "chrf", "case_study_analyst", "metric_summary_analyst"}
 
 class MetricRunner:
     def __init__(self, max_workers: Optional[int] = None):
