@@ -17,6 +17,10 @@ Built on [DataFlow](https://github.com/OpenDCAI/DataFlow) and [LangGraph](https:
 
 English | [简体中文](./README_zh.md)
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/48e06595-1565-4020-9ca3-4b92ea420ba0" alt="English Demo" width="70%">
+</p>
+
 ## 📰 1. News
 
 - **[2026-03] 🎉 One-Eval (v0.1.0) is officially open-sourced!**  
