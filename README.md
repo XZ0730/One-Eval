@@ -47,7 +47,7 @@ Traditional evaluation often faces pain points such as complex scripts, fragment
 
 <!-- TODO: Add One-Eval Framework Diagram Here -->
 
-!\[One-Eval Framework]\(./static/logo/eval\_framework.png null)
+![One-Eval Framework](./static/logo/eval_framework.png)
 
 ## ⚡ 3. Quick Start
 
@@ -95,7 +95,7 @@ Visit <http://localhost:5173> to start interactive evaluation.
 ### 3.3 Minimal Code Mode (Developer Mode)
 
 If you prefer to call directly in code, you can run the built-in complete workflow example:\
-[workflow\_all.py](./one_eval/graph/workflow_all.py)
+[workflow_all.py](./one_eval/graph/workflow_all.py)
 
 ```bash
 # Example: Initiate a reasoning capability evaluation directly via command line
@@ -114,7 +114,7 @@ One-Eval has a built-in rich **Bench Gallery** for unified management of meta-in
 > - 🌐 **General Knowledge**: MMLU, CEval, CMMLU...
 > - 🔧 **Instruction Following**: IFEval...
 
-!\[Bench Gallery]\(./static/logo/gallery.png null)
+![Bench Gallery](./static/logo/gallery.png)
 
 ## 🚀 5. Future Work
 
