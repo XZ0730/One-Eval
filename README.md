@@ -8,7 +8,7 @@
 [![ArXiv](https://img.shields.io/badge/ArXiv-Paper-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2603.09821)
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/OpenDCAI/One-Eval)
-[![WeChat Group](https://img.shields.io/badge/WeChat-Group-brightgreen?logo=wechat&logoColor=white)](./static/logo/318QRcode.jpg)
+[![WeChat Group](https://img.shields.io/badge/WeChat-Group-brightgreen?logo=wechat&logoColor=white)](https://github.com/user-attachments/assets/306ab88b-024f-4a44-877f-f4c39f77ab32)
 
 </div>
 
